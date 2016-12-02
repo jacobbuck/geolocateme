@@ -6,7 +6,7 @@
  * @param options {Object} An optional PositionOptions object.
  * @return {Promise}
  */
-module.exports = function locateme(options) {
+module.exports = function geolocateme(options) {
 	return new Promise(function(resolve, reject) {
 		if ('geolocation' in navigator) {
 			navigator.geolocation.getCurrentPosition(resolve, reject, options);

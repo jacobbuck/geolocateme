@@ -1,17 +1,17 @@
 {
-  "name": "locateme",
-  "version": "0.0.1",
+  "name": "geolocateme",
+  "version": "0.0.2",
   "description": "Promisified `Geolocation.getCurrentPosition()`",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacobbuck/locateme.git"
+    "url": "git+https://github.com/jacobbuck/geolocateme.git"
   },
   "keywords": ["geolocation", "location", "navigator", "promise"],
   "author": "Jacob Buck <buck.jacob@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacobbuck/locateme/issues"
+    "url": "https://github.com/jacobbuck/geolocateme/issues"
   },
-  "homepage": "https://github.com/jacobbuck/locateme"
+  "homepage": "https://github.com/jacobbuck/geolocateme"
 }
