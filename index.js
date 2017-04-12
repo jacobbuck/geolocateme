@@ -7,11 +7,11 @@
  * @return {Promise}
  */
 module.exports = function geolocateme(options) {
-	return new Promise(function(resolve, reject) {
-		if ('geolocation' in navigator) {
-			navigator.geolocation.getCurrentPosition(resolve, reject, options);
-		} else {
-			reject(new Error('Geolocation not supported'));
-		}
-	});
+  return new Promise(function(resolve, reject) {
+    if ('geolocation' in navigator) {
+      navigator.geolocation.getCurrentPosition(resolve, reject, options);
+    } else {
+      reject(new Error('Geolocation not supported'));
+    }
+  });
 };
