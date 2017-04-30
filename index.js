@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Wrapper for `navigator.geolocation.getCurrentPosition` to return `Promise`.
  * Also rejects if browser doesn't support geolocation.
